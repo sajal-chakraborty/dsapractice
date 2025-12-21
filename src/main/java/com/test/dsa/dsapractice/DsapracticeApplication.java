@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-
 @SpringBootApplication
 @RestController
 
@@ -20,7 +19,5 @@ public class DsapracticeApplication {
 	public String getMethodName(@RequestParam("param") String param) {
 		return new String("Hello, " + param + " Welcome to DSA Practice Application");
 	}
-	
-
 
 }
