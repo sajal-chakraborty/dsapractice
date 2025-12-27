@@ -8,15 +8,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @SpringBootApplication
 @RestController
-
-public class DsapracticeApplication {
+public class DsapracticeApplication12 {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DsapracticeApplication.class, args);
+		SpringApplication.run(DsapracticeApplication12.class, args);
 	}
 
 	@GetMapping("/")
-	public String getMethodName(@RequestParam("param") String param) {
+	public String getMethodName(@RequestParam String param) {
 		return new String("Hello, " + param + " Welcome to DSA Practice Application");
 	}
 
