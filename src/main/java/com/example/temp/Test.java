@@ -1,4 +1,4 @@
-package com.test.temp;
+package com.example.temp;
 
 class Animal {
     void makeSound() {

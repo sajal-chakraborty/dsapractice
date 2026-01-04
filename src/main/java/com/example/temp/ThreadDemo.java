@@ -1,4 +1,4 @@
-package com.test.temp;
+package com.example.temp;
 
 class Task implements Runnable {
     int counter = 0;

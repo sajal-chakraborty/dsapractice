@@ -1,4 +1,4 @@
-package com.test.temp;
+package com.example.temp;
 
 public class Demo1 {
 

@@ -1,4 +1,4 @@
-package com.test.dsa.dsapractice.algorithms;
+package com.example.algorithms;
 
 import java.util.HashMap;
 
