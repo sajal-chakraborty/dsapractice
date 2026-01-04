@@ -1,4 +1,4 @@
-package com.example.algorithms.tree;
+package com.example.dsa.tree;
 
 public class TreeTest {
 
